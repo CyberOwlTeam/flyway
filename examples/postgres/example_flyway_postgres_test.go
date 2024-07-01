@@ -1,4 +1,4 @@
-package flyway_test
+package main
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	tcnetwork "github.com/testcontainers/testcontainers-go/network"
 )
 
-func ExampleRunContainer() {
+func ExampleFlyway_postgres() {
 	// runFlywayContainer {
 	ctx := context.Background()
 	nw, err := tcnetwork.New(ctx)

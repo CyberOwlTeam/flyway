@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" errors="0" time="31.913450">
+	<testsuite tests="2" failures="0" time="21.259000" name="github.com/CyberOwlTeam/flyway/examples/postgres" timestamp="2024-07-01T10:21:53+01:00">
+		<properties>
+			<property name="go.version" value="go1.22.3 darwin/amd64"></property>
+		</properties>
+		<testcase classname="github.com/CyberOwlTeam/flyway/examples/postgres" name="TestFlyway_postgres" time="16.180000"></testcase>
+		<testcase classname="github.com/CyberOwlTeam/flyway/examples/postgres" name="ExampleFlyway_postgres" time="4.620000"></testcase>
+	</testsuite>
+</testsuites>
